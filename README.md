@@ -1,11 +1,11 @@
 # Home2Go's carousel service
 
-## 👀 preview
+## preview
 
 ## 🛠 tech stack
 React.js (Hooks), Node.js, Express.js, MongoDB, Mongoose, Jest, Enzyme
 
-## try it yourself locally
+## 📍 try it yourself locally
 
 ```
 $ git clone https://github.com/Home2Go/carousel-service.git && cd carousel-service
