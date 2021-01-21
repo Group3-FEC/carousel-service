@@ -1,7 +1,17 @@
+# npm
 node_modules/
+
+# testing
 coverage/
+
+# local images
 database/activityPics/
 database/placePics/
 database/downloadPics.js
+
+# AWS login 
 *.pem
 login.sh
+
+# db seeding file that uses my S3 images
+S3seed.js
