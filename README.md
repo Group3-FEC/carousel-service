@@ -1,6 +1,7 @@
 # Home2Go's carousel service
 
 ## preview
+![carousel demo](./demo.gif)
 
 ## 🛠 tech stack
 React.js (Hooks), Node.js, Express.js, MongoDB, Mongoose, Jest, Enzyme
@@ -16,7 +17,7 @@ install dependencies
 $ npm install
 ```
 
-makesure you have [mongoDB](https://docs.mongodb.com/manual/administration/install-community/) installed and seed database
+make sure you have [mongoDB](https://docs.mongodb.com/manual/administration/install-community/) installed and seed database
 
 ```
 $ npm run seed
@@ -31,7 +32,4 @@ visit `localhost:3000` to see the carousel in action
 This project is bundled using Webpack, if you make any local changes you will need to run `$ npm run build` in order for your changes to be reflected.
 
 ### 🧪 testing the build
-This project comes out of the box with 100% coverage using Jest + Enzyme.
-```
-$ npm run test
-```
+This project comes out of the box with 100% coverage using Jest + Enzyme. To check how any loca changes effect the build run `npm run test`.
