@@ -27,6 +27,7 @@ start the server
 $ npm start
 ```
 visit `localhost:3000/1/` to see the carousel in action
+<br></br>
 *note:* images and text come from [loremflicker](https://loremflickr.com/) and [faker.js](https://github.com/marak/Faker.js/) respectively. Their servers are sometimes down, preventing components from rendering. 
 
 ### 📦 webpack
