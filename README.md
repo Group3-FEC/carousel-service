@@ -27,7 +27,7 @@ start the server
 $ npm start
 ```
 visit `localhost:3000/1/` to see the carousel in action
-*note:* images come from [loremflicker](https://loremflickr.com/) and are reliant on their servers being up
+*note:* images and text come from [loremflicker](https://loremflickr.com/) and [faker.js](https://github.com/marak/Faker.js/) respectively. Their servers are sometimes down, preventing components from rendering. 
 
 ### 📦 webpack
 This project is bundled using Webpack, if you make any local changes you will need to run `$ npm run build` in order for your changes to be reflected.
