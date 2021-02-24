@@ -17,7 +17,7 @@ install dependencies
 $ npm install
 ```
 
-make sure you have [mongoDB](https://docs.mongodb.com/manual/administration/install-community/) installed and seed database
+make sure you have [mongoDB](https://docs.mongodb.com/manual/administration/install-community/) installed and then seed database
 
 ```
 $ npm run seed
@@ -28,10 +28,10 @@ $ npm start
 ```
 visit `localhost:3000/1/` to see the carousel in action
 <br></br>
-*note:* images and text come from [loremflicker](https://loremflickr.com/) and [faker.js](https://github.com/marak/Faker.js/) respectively. Their servers are sometimes down, preventing components from rendering. 
+*note:* images and text come from [loremflicker](https://loremflickr.com/) and [faker.js](https://github.com/marak/Faker.js/) respectively. Their servers are sometimes down, preventing components from properly rendering. 
 
 ### 📦 webpack
 This project is bundled using Webpack, if you make any local changes you will need to run `$ npm run build` in order for your changes to be reflected.
 
 ### 🧪 testing the build
-This project comes out of the box with 100% coverage using Jest + Enzyme. To check how any loca changes effect the build run `$ npm run test`.
+This project comes out of the box with 100% coverage using Jest + Enzyme. To check how any local changes effect the build run `$ npm run test`.
